@@ -3,6 +3,7 @@
 ROOT_PATH=$(dirname $BASH_SOURCE);
 
 alias cra='create-react-app';
+alias cra-v='create-react-app --version';
 alias cra-ts='create-react-app . --template typescript'
 alias cra-js='create-react-app .'
 
