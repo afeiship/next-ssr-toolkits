@@ -1,0 +1,24 @@
+{
+  "name": "@feizheng/ushell-module-cra",
+  "version": "1.0.0",
+  "description": "Ushell module for create-react-app.",
+  "main": "index.sh",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afeiship/ushell-module-cra.git"
+  },
+  "keywords": [
+    "ushell",
+    "unix",
+    "shell",
+    "ushell-module-cra"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/afeiship/ushell-module-cra/issues"
+  },
+  "homepage": "https://github.com/afeiship/ushell-module-cra",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
+}
