@@ -2,10 +2,9 @@
 ## path:
 ROOT_PATH=$(dirname $BASH_SOURCE);
 
-alias cra='create-react-app';
-alias cra-version='create-react-app --version';
-alias cra-update='npm i -g create-react-app';
-alias cra-ts='create-react-app . --template typescript'
-alias cra-js='create-react-app .'
+alias cra-redux='npx create-react-app . --template redux';
+alias cra-redux-ts='npx create-react-app . --template redux-typescript'
+alias cra-js='npx create-react-app .'
+alias cra-ts='npx create-react-app . --template typescript'
 
 unset ROOT_PATH;
