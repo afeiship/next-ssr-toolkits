@@ -1,6 +1,6 @@
 {
   "name": "@feizheng/ushell-module-cra",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Ushell module for create-react-app.",
   "main": "index.sh",
   "repository": {
