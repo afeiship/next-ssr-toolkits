@@ -1,6 +1,6 @@
 {
-  "name": "@feizheng/ushell-module-cra",
-  "version": "1.0.3",
+  "name": "@jswork/ushell-module-cra",
+  "version": "1.0.0",
   "description": "Ushell module for create-react-app.",
   "main": "index.sh",
   "repository": {
@@ -9,9 +9,10 @@
   },
   "keywords": [
     "ushell",
-    "unix",
-    "shell",
-    "ushell-module-cra"
+    "module",
+    "cra",
+    "react",
+    "cli"
   ],
   "license": "MIT",
   "bugs": {

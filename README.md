@@ -7,7 +7,7 @@
 
 ## installation
 ```shell
-npm i -S @feizheng/ushell-module-cra
+npm i -S @jswork/ushell-module-cra
 ```
 
 ## license
