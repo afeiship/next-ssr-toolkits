@@ -1,3 +1,3 @@
 interface NxStatic {
-  ssrToolkits: any;
+  $initServerData: () => Promise<void>;
 }
