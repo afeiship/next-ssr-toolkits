@@ -1,31 +1,57 @@
 {
-  "name": "@jswork/ushell-module-cra",
-  "version": "1.0.2",
-  "description": "Ushell module for create-react-app.",
-  "main": "index.sh",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/afeiship/ushell-module-cra.git"
-  },
-  "keywords": [
-    "ushell",
-    "module",
-    "cra",
-    "react",
-    "cli"
+  "name": "@jswork/next-ssr-toolkits",
+  "version": "1.0.0",
+  "description": "Next ssr toolkits.",
+  "homepage": "https://js.work",
+  "files": [
+    "dist",
+    "index.d.ts"
   ],
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/afeiship/ushell-module-cra/issues"
-  },
-  "homepage": "https://github.com/afeiship/ushell-module-cra",
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+  "author": {
+    "name": "afei",
+    "email": "1290657123@qq.com"
   },
   "scripts": {
+    "build": "gulp",
+    "test": "bun test",
     "release": "release-it"
   },
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "license": "MIT",
   "devDependencies": {
-    "release-it": "^15.0.0"
+    "@babel/core": "^7.21.3",
+    "@babel/preset-env": "^7.20.2",
+    "@jswork/gulp-pkg-header": "^1.0.8",
+    "@jswork/gulp-registry": "^1.0.45",
+    "@jswork/next": "^1.2.2",
+    "@types/jest": "^29.5.12",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-prettier": "^4.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-replace": "^1.1.4",
+    "gulp-uglify": "^3.0.2",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.2",
+    "prettier": "^3.2.5",
+    "uglify-save-license": "^0.4.1"
+  },
+  "babel": {
+    "presets": [
+      [
+        "@babel/preset-env"
+      ]
+    ]
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx}": [
+      "npm run pretty"
+    ]
   }
 }
