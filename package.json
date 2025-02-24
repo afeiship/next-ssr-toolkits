@@ -1,6 +1,6 @@
 {
   "name": "@jswork/next-ssr-toolkits",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Next ssr toolkits.",
   "homepage": "https://js.work",
   "files": [
@@ -53,5 +53,8 @@
     "src/**/*.{js,jsx}": [
       "npm run pretty"
     ]
+  },
+  "dependencies": {
+    "@jswork/next-global": "^1.0.4"
   }
 }
